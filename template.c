@@ -20,9 +20,9 @@ typedef long long ll;
 #define tc int t
 #define ni int n
 #define toi(X) for (int i = 0; i < X; i++)
-#define toi_ll(X) for (ll i = 0; i < X; i++)
+#define toill(X) for (ll i = 0; i < X; i++)
 #define toj(X) for (int j = 0; j < X; j++)
-#define toj_ll(X) for (ll j = 0; j < X; j++)
+#define tojll(X) for (ll j = 0; j < X; j++)
 #define loopi(start, end) for (int i = start; i < end; i++)
 #define loopill(start, end) for (ll i = start; i < end; i++)
 #define loopj(start, end) for (int j = start; j < end; j++)
