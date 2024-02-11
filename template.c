@@ -31,21 +31,22 @@ typedef long long ll;
 // <stdio.h>
 #define pf printf
 #define sf scanf
-#define getTc tc;\
+#define getTc                                                                  \
+    tc;                                                                        \
     sf("%d", &t)
-#define getN ni;\
-    sf("%d", &n) 
-#define set3(a, b, c) int a, b, c;\
+#define getN                                                                   \
+    ni;                                                                        \
+    sf("%d", &n)
+#define set3(a, b, c)                                                          \
+    int a, b, c;                                                               \
     sf("%d %d %d", &a, &b, &c)
-#define set2(x, y) int x, y;\
+#define set2(x, y)                                                             \
+    int x, y;                                                                  \
     sf("%d %d", &x, &y)
 
 // <stdlib.h>
-#define newBool(ptr, size) bool *ptr = (bool*)calloc(size, sizeof(bool))
-#define newChar(ptr, size) char *ptr = (char*)calloc(size, sizeof(char))
-#define newInt(ptr, size) int *ptr = (int*)calloc(size, sizeof(int))
+#define newBool(ptr, size) bool *ptr = (bool *)calloc(size, sizeof(bool))
+#define newChar(ptr, size) char *ptr = (char *)calloc(size, sizeof(char))
+#define newInt(ptr, size) int *ptr = (int *)calloc(size, sizeof(int))
 
-int main(void) {
-
-    return 0;
-}
+int main(void) { return 0; }
