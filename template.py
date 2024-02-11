@@ -14,14 +14,15 @@ import sys
 
 sys.setrecursionlimit(10 ** 8)
 
-read = lambda: int(input())
-strng = lambda: input().strip()
-map_int = lambda: map(int, strng().split())
-map_list = lambda: list(map_int())
+read = lambda: input().strip()
+read_int = lambda: int(input())
+splt = lambda: read().split()
+map_int = lambda: map(int, splt())
+map_float = lambda: map(float, splt())
 flush = lambda: stdout.flush()
 getline = lambda: stdin.readline()
 stdprint = lambda x: stdout.write(str(x))
 
 if __name__ == "__main__":
     # Write code here.
-    pass
+
