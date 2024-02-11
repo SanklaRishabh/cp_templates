@@ -1,4 +1,6 @@
 // Some commonly used headers.
+// Comment if the header is unused.
+
 // #include <limits.h>
 // #include <ctype.h>
 // #include <math.h>
@@ -9,9 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 // #include <string.h>
-
-// Useful macros.
-// Comment if the header is unused.
 
 // Commons.
 typedef long long ll;
